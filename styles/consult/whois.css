@@ -1,0 +1,64 @@
+.whois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whois_description{
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+}
+
+.whois_description > p, h4 {
+    display: inline;
+}
+
+.whois_bold {
+    font-weight: 600;
+    color: #012F69;
+}
+
+.whois > img {
+    max-width: 800px;
+    margin-bottom: 60px;
+}
+
+.whois > a {
+    margin-top: 150px;
+    background: linear-gradient(180deg, #000000 0%, #002F6A 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.2s linear;
+    border: 1px solid #fff;
+    text-align: center;
+    border: 1px solid #012F69;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.whois > a:hover{
+    background: #fff;
+    color: #012F69;
+    border: 1px solid #012F69;
+}
+
+@media(max-width: 900px) {
+    .whois > img {
+        width: 600px;
+    }
+}
+@media(max-width: 740px) {
+    .whois > img {
+        width: 350px;
+    }
+}

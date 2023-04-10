@@ -1,0 +1,45 @@
+.fears {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fears > h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fears_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1050px;
+}
+
+.fears_block {
+    display: flex;
+    width: 500px; 
+    padding: 25px;
+}
+
+.fears_block > img {
+    width: 60px;
+    height: 60px;    
+}
+
+.fears_block > p {
+    padding-left: 25px;
+    font-weight: 500;
+    color: #0F0E0E;
+}
+
+@media (max-width: 720px){
+    .fears{
+        max-width: auto;
+    }
+}
